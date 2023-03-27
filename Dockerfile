@@ -1,5 +1,7 @@
 FROM python:3.10
 
+FROM java:1.8.0
+
 WORKDIR /app
 
 COPY requirements.txt ./requirements.txt
